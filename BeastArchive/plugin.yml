@@ -1,0 +1,37 @@
+name: BeastArchive
+main: Beast.main
+version: 1.0
+commands:
+        getexp:
+          description: Gets Targets Exp Rank
+          usage: /getexp <player>
+        heal:
+          description: Heals Sender
+          usage: /heal
+        beast:
+          description: Displays a Message
+          usage: /beast
+        exp:
+          description: Sets Targets Exp to Specified in the Syntax
+          usage: /exp <player> <exp>
+        kill:
+          description: Kills Sender
+          usage: /kill
+        food:
+          description: Sets Food to Full
+          usage: /food
+        gmd:
+          description: Toggles GameMode
+          usage: /gmd
+        clear:
+          description: Clears invent
+          usage: /clear
+        checkgmd:
+          description: Checks targets GameMode
+          usage: /checkgmd <target>
+        repairit:
+          description: repairs item in hand
+          usage: /repairit
+        beastreload:
+          description: reloads config
+          usage: /beastreload
